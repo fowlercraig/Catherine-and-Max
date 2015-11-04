@@ -1,5 +1,10 @@
-body,html {
-   height: 100%;
+body {
+   //height: 100%;
+   padding: @spaced;
+}
+
+#wrapper {
+   position: relative;
 }
 
 #content {
@@ -16,15 +21,23 @@ body,html {
 
    display: block;
    background: @bgGray;
-   margin-top: @fs-grid-gutter*2 ;
-   margin-bottom: @fs-grid-gutter*2;
+   margin: 1px;
+   position: relative;
+
+   &.x-small {
+      height: 200px;
+   }
 
    &.small {
-      height: 400px;
+      height: 300px;
    }
 
    &.medium {
-      height: 800px + @spaced;
+      height: 400px;
+   }
+
+   h3 {
+      margin: 0;
    }
 
 }

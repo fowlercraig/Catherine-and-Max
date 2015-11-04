@@ -2,13 +2,18 @@
 
 	&-header {
 
-		height: 300px;
+		//padding: @spaced*8 0 @spaced*4;
 		margin-bottom: @spaced*2;
 		position: relative;
-		background: @gray;
+		
+
+		&_image {
+			height: 80px;
+			//background: @black;	
+			margin-bottom: @spaced*2;
+		}
 
 		&-content {
-			.center();
 			position: relative;
 			z-index: 1;
 			color: @white;
@@ -32,10 +37,13 @@
 	}
 
 	&-title {
-		color: @white;
+		//color: @white;
 		text-transform: capitalize;
-		.font_size(50);
+		.font_size(40);
 		margin-bottom: 0;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		text-rendering: optimizeLegibility;
 	}
 
 }

@@ -8,7 +8,7 @@
 
   } else {
 
-    include ('pages/index.php');
+    include ('pages/home.php');
 
   }
 

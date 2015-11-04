@@ -81,11 +81,27 @@
       margin: 0 @spaced*2;
    }
 
+   &-overlay {
+      position: relative;
+      &:before {
+         content: '';
+         display: block;
+         .cover();
+         background: fade(@black, 15%);
+         z-index: 9;
+      }
+   }
+
+   h1,h2,h3,h4,h5,a {
+      color: inherit;
+   }
+
    h1 {
       @media @tablet {
-         .font_size(60);   
+         .font_size(80);   
       }
       color: inherit;
+      .crimson();
    }
 
    h2 {
@@ -94,6 +110,10 @@
       }
       color: inherit;
    }
+
+   h3 {
+      letter-spacing: 2px;
+   } 
 
    &--title {
       color: @white;

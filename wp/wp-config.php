@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'timelineDBqqzi4');
+define('DB_NAME', 'catherinDB4lclq');
 
 /** MySQL database username */
-define('DB_USER', 'timelineDBqqzi4');
+define('DB_USER', 'catherinDB4lclq');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'eyQZy6FZi6');
+define('DB_PASSWORD', 'ykbeNSB38s');
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '1v>!UNkc0>B4ng@vC4RJ@v}|Vsk80NFsk!zNGdV[!4}gZwo4:KCwo|VNkd0[G8<^7');
-define('SECURE_AUTH_KEY',  '7Fk@NBU,7}cvn0Jzo!RkY}F4cwG4N!v[Ysg<AqeyHAT.6]Tm6{Eym*PiX^3jXqA3M');
-define('LOGGED_IN_KEY',    '~O5ht9Op*HW_1egvBNz>Ug|4cs8NV1@[n$EU^m$7Mu,Mb<n$JU^bn}7jzg}7<3fu');
-define('NONCE_KEY',        '.DW#9;exA;Hx]*Pi2#AmbqAT*2qT.2~1#Vp9:Gw[~Ga]~1h-p9S+p_Sla_DSp9;H}');
-define('AUTH_SALT',        '8!GZN@4[VsC0Jq.yLfT.6mbxAIy{2<AjbuEXM$<Xq3>Buj$MfU,7_+;eSl5ODt#');
-define('SECURE_AUTH_SALT', 'uMfU,7nbqAXM1K-p_Sla:D5exH5O~1]ath]Dti+LeS_5;XqA;Hx]*PiWKd:G5l~OC');
-define('LOGGED_IN_SALT',   '5s~9O-hx9Ot*La_2eDT*]Wm;D!0cJZ|4Vk0Gs@JZ-[wCR@[Od|5hs8OQ$>UjEgvB');
-define('NONCE_SALT',       'hKa]~1@0,Un7}Fv>@JcR!4kYrB4Nw[@Ng0>CsgzCVKz:dVo8}G{E3m^uEX<$Xrj3');
+define('AUTH_KEY',         'Jcnv@>08FNVckrz|}4CJRZgoz![0MUcjv$,}3BJQYgrz^>07JQYg4BXfnu$<7EMU');
+define('SECURE_AUTH_KEY',  'Oit~]29LSemx*#29HT[1CKSdlw~|19GSZht-_:5GOWhp-08JRZks-|:8GNZhs-|:4');
+define('LOGGED_IN_KEY',    'aEPXiq+.{6ELlt+#;9HOWipx_]5DLSe;6DPWs~#:9GSZht-#:9GOWhp-_]5DKWe4G');
+define('NONCE_KEY',        '4Rdo-|1CKV07JUcnz,}8JUcoz|08JRcoz3FMYjr$>3FMYjv^7JQcnz^AMXfq$<AM');
+define('AUTH_SALT',        '_5GOZhs>4CJVcov@[0CJVdkw@[08KRZks}3BNUcnv^>0BJRckv@,08FRYkrz3BIUb');
+define('SECURE_AUTH_SALT', 'Leq+<;OWhp-_:5DOWhpx_]5DOWepx_]5DZls~|18KSZls~#19KSdlt~[1DKks@|08');
+define('LOGGED_IN_SALT',   '-1CKVdlw~[18Kgoz!>4BJRcksz|Vcks@|}8GNjv$,7FMYgnv^>0BJQckr@,}7FNU');
+define('NONCE_SALT',       'DWht-#:9HOahp+_]5DLWs-|:4GOVhow_[1CKSdls~#19GSZv![0CJRcks@|08GNZg');
 
 /**#@-*/
 

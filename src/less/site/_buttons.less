@@ -7,8 +7,6 @@
   margin: 0 0 10px 0;
   text-align: center;
   user-select: none;
-  //font-weight: 600;
-  border-radius: 3px;
   height: 34px;
   padding: 0 8px;
   line-height: 34px;
@@ -54,12 +52,9 @@
 
     margin-bottom: 0;
     font-weight: 400;
-    height: 40px;
-    line-height: 40px;
-
-    &:first-child {
-      padding-left: 0;
-    }
+    height: 80px;
+    line-height: 80px;
+    padding: 0 @spaced;
 
     &[class*="ss-"] {
       padding: 0;
@@ -76,13 +71,21 @@
       left: 0;
       top: 50%;
       margin-top: -5px;
-      width: 1em;
+      width: 2em;
       height: 1px;
       background: @black25;
       box-shadow: 
-        0 0.25em 0 0 @black25,
-        0 0.5em 0 0 @black25;
+        0 5px 0 0 @black25,
+        0 10px 0 0 @black25;
+    }
+    &.white {
+      &:before {
+        background: @white;
+        box-shadow: 
+          0 5px 0 0 @white,
+          0 10px 0 0 @white;
       }
+    }
   }
 
   &-logo {

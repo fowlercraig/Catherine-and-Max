@@ -1,9 +1,25 @@
 #header {
 
-   padding: @spaced/1.5 0;
+   margin: 0;
    .transition();
    background: @white;
+   height: 80px;
+   overflow: hidden;
    position: relative;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   .font_size(13);
+   border-bottom: 1px solid @lighterGray;
+
+   a {
+      color: @textGray;
+   }
+
+   &.home {
+      a {
+         color: @white;
+      }
+   }
 
    &-mobile {
       padding: @spaced/1.5 0;
@@ -55,21 +71,24 @@
    }
 
    &.fixed {
-
       position: fixed;
       width: 100%;
       top: 0;
       z-index: 999;
       transition: background-color 300ms ease;
+      background: transparent;
+   }
 
-      &:hover {
-         background-color: @white;
-      }
-
+   &.pinned {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      z-index: 999;
+      transition: background-color 300ms ease;
+      background: transparent;
    }
 
    &-wrapper {
-      //overflow: hidden;
       position: relative;
       background: @black;
    }
@@ -83,18 +102,40 @@
 
    }
 
+   &--nav {
+      &_visible {
+         .transition();
+      }
+      &_hidden {
+         .transition();
+      }
+   }
+
    &.fs-swap {
       &-active {
-         background: @black;
-         color: @white;
+         background: fade(@white, 94%);
+         color: @textGray;
+
+         #header--nav {
+            &_visible {
+               transform: translateY(-100%);
+            }
+            &_hidden {
+               transform: translateY(-100%);
+            }
+         }
+
          a {
-            color: @white;
+            color: @textGray;
+            &:hover {
+               color: @black;
+            }
             &.btn-hamburg {
                &:before {
-                  background: @white;
+                  background: @textGray;
                   box-shadow: 
-                     0 0.25em 0 0 @white,
-                     0 0.5em 0 0 @white;
+                     0 5px 0 0 @textGray,
+                     0 10px 0 0 @textGray;
                }
             }
          }
@@ -112,6 +153,29 @@
          &-active {
             opacity: 1;
          }
+      }
+   }
+
+   &.banner {
+      &--clone {
+         position: fixed;
+         top: 0;
+         left: 0;
+         background: #c95a5d;
+         transform: translateY(-100%);
+         transition: all 300ms ease;
+         height: 50px;
+         a {
+            color: @white75;
+            height: 50px;
+            line-height: 50px;
+            &:hover {
+               color: @white;
+            }
+         }
+      }
+      &--stick {
+         transform: translateY(0%);
       }
    }
 

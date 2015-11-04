@@ -1,64 +1,39 @@
-<div class="alert alert-notice alert-active hidden">
-   <div class="centered centered-full">
-      <div class="fs-row">
-         <div class="fs-cell fs-all-full">
-            <a href="/">Home</a>
-            <a href="?page=collection">Collection</a>
-            <a href="?page=category">Skinnies</a>
-            <a href="?page=product">Natural Blonde</a>
-            <a href="?page=about">About</a>
-            <a href="?page=commercial">Commercial</a>
-            <a href="?page=contact">Contact</a>
-            <a href="?page=glossary">Glossary</a>
-            <a href="?page=blog">Blog</a>
-            <a href="?page=blog">Blog Single</a>
-            <a href="#" class="fl-right close-alert" title="close"><span class="ss-gizmo ss-plus rotate-45"></span></a>
-         </div>
-      </div>
-   </div>
-</div>
-
-<div id="header-wrapper">
+<div id="header-wrapper" class="menu-swap">
    <?php 
       // Available Classes for #header:
+      // .fixed: adds a fixed header
       // .forehead: adds some space above the nav.
       // .fivehead: adds a bunch of space above the nav.
       // .chin: adds some space below the nav.
    ?>
-   <header id="header" class="menu-swap">
+   <header id="header" class="menu-swap pinned <?php if ( $_GET['page'] == 'index'): echo 'home' ; endif; ?>">
       <div class="fs-row">
-         <nav id="header--nav_left" class="fs-cell fs-lg-3 fs-md-2 fs-sm-hide">
-            <a href="#" class="btn btn-nav btn-hamburg swap" data-swap-target=".menu-swap">Menu</a>
-         </nav>
-         <nav id="header--logo" class="fs-cell fs-lg-6 fs-md-2 fs-sm-1 text-center">
-            <a href="/" class="btn btn-nav btn-logo">Time Line</a>
-         </nav>
-         <nav id="header--nav_right" class="fs-cell fs-lg-3 fs-md-2 fs-sm-1 text-right">
-            <a href="?page=search" class="btn btn-nav">Search</a>
-         </nav>
+         <div id="header--nav_visible" class="fs-cell fs-all-full fs-contained">
+            <nav id="header--nav_left" class="fs-cell fs-lg-2 fs-md-1 fs-sm-1">
+               <a href="#" class="btn btn-nav btn-hamburg btn-menu swap <?php if ( $_GET['page'] == 'index'): echo 'white' ; endif; ?>" data-swap-linked=".btn-menu" data-swap-target=".menu-swap">&nbsp;</a>
+            </nav>
+            <nav id="header--nav_center" class="fs-cell fs-lg-8 fs-md-4 fs-sm-hide text-center">
+               <a href="?page=search" class="btn btn-nav">January 14, 2015 — New Orleans, LA</a>
+            </nav>
+            <nav id="header--nav_right" class="fs-cell fs-lg-2 fs-md-hide fs-sm-1 text-right">
+               <a href="#" class="btn btn-nav white">#cathandmax</a>
+            </nav>
+         </div>
+         <div id="header--nav_hidden" class="fs-cell fs-all-full fs-contained">
+            <nav id="header--nav_left" class="fs-cell fs-lg-2 fs-md-2 fs-sm-1">
+               <a href="#" class="btn btn-nav ss-gizmo btn-menu ss-delete swap white" data-swap-linked=".btn-menu" data-swap-target=".menu-swap">Close</a>
+            </nav>
+            <nav id="header--nav_center" class="fs-cell fs-lg-8 fs-md-4 fs-sm-hide text-center">
+               <?php if ( $_GET['page'] != 'index'): echo '<a href="/" class="btn btn-nav">Home</a>' ; endif; ?>
+               <a href="?page=search" class="btn btn-nav">Wedding Details</a>
+               <a href="?page=search" class="btn btn-nav">The Venue</a>
+               <a href="?page=search" class="btn btn-nav">The After Party</a>
+               <a href="?page=search" class="btn btn-nav">Registry</a>
+            </nav>
+            <nav id="header--nav_right" class="fs-cell fs-lg-2 fs-md-2 fs-sm-1 text-right">
+               <a href="#" class="btn btn-nav white">#cathandmax</a>
+            </nav>
+         </div>
       </div>
    </header>
-   <?php // Need to figure out how to append this with jQuery rather than by this method ?>
-   <header id="header-mobile">
-      <div class="fs-row">
-         <nav id="header--logo-mobile" class="fs-cell fs-lg-6 fs-md-3 fs-sm-full">
-            <a href="?page=collection" class="btn btn-nav btn-close ss-gizmo ss-plus rotate-45"></a>
-            <a href="?page=collection" class="btn btn-nav">Shop</a>
-            <a href="?page=collection" class="btn btn-nav">Stockists</a>
-            <a href="#" class="btn btn-nav">Account</a>
-         </nav>
-      </div>
-   </header>
-   <div id="header--active" class="bg-color-lightPink menu-swap">
-      <div class="fs-row">
-         <a class="btn btn-nav fs-cell fs-lg-fourth fs-md-fourth fs-sm-half text-center" href="#">Products</a>
-         <a class="btn btn-nav fs-cell fs-lg-fourth fs-md-fourth fs-sm-half text-center" href="#">Where to Buy</a>
-         <a class="btn btn-nav fs-cell fs-lg-fourth fs-md-fourth fs-sm-half text-center" href="#">Stories</a>
-         <a class="btn btn-nav fs-cell fs-lg-fourth fs-md-fourth fs-sm-half text-center" href="#">FAQ</a>
-         <a class="btn btn-nav fs-cell fs-lg-fourth fs-md-fourth fs-sm-half text-center" href="#">Commercial</a>
-         <a class="btn btn-nav fs-cell fs-lg-fourth fs-md-fourth fs-sm-half text-center" href="#">About Us</a>
-         <a class="btn btn-nav fs-cell fs-lg-fourth fs-md-fourth fs-sm-half text-center" href="#">Press Room</a>
-         <a class="btn btn-nav fs-cell fs-lg-fourth fs-md-fourth fs-sm-half text-center" href="#">Contact</a>
-      </div>
-   </div>
 </div>

@@ -1,25 +1,12 @@
 <footer id="footer">
+   <hr class="divider compact">
    <div class="fs-row">
-
-      <nav id="footer--nav" class="fs-cell fs-xl-3 fs-lg-3 fs-md-3 fs-sm-3">
-         <a href="?page=general" class="btn btn-nav">Contact Us</a>
-         <a href="?page=general" class="btn btn-nav">Privacy Policy</a>
+      <nav id="footer--nav_center" class="fs-cell fs-lg-12 fs-md-4 fs-sm-hide fs-centered text-center">
+         <a href="?page=search" class="btn btn-nav">Wedding Details</a>
+         <a href="?page=search" class="btn btn-nav">The Venue</a>
+         <a href="?page=search" class="btn btn-nav">The After Party</a>
+         <a href="?page=search" class="btn btn-nav">Registry</a>
+         <a href="#" class="btn btn-nav">us@catherineandmax.com</a>
       </nav>
-
-      <div id="footer--mc" class="fs-cell fs-xl-3 fs-lg-3 fs-md-3 fs-sm-3">
-         <?php include ('parts/mailchimp.php'); ?>
-      </div>
-
-      <div id="footer--copyright" class="fs-cell fs-xl-3 fs-lg-3 fs-md-3 fs-sm-half">
-         <span class="btn btn-nav">Time Line 2015</span>
-      </div>
-
-      <div id="footer--social" class="fs-cell fs-xl-3 fs-lg-3 fs-md-3 fs-sm-half text-right">
-         <a href="#" class="btn btn-nav ss-social ss-facebook" title="facebook"></a>
-         <a href="#" class="btn btn-nav ss-social ss-twitter" title="facebook"></a>
-         <a href="#" class="btn btn-nav ss-social ss-instagram" title="facebook"></a>
-         <a href="#" class="btn btn-nav ss-social ss-pinterest" title="facebook"></a>
-      </div>
-      
    </div>
 </footer>

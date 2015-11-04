@@ -6,7 +6,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en" ng-app="myapp"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Time—Line</title>
+<title>Catherine &amp; Max — New Orleans, LA — 2016</title>
 <meta name="description" content="">
 <link rel="shortcut icon" href="assets/img/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -18,8 +18,8 @@
 <meta name='robots' content='noindex,follow' />
 <link rel="stylesheet" href="assets/main.css">
 <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?ver=1.11.1'></script>
-<link href="//cdn.symbolset.com/bb206072b1ea173cb334d5d322652b408731e4a7/symbolset.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
 <!--[if lt IE 9]>
 <script src="assets/app.ie.min.js"></script>
