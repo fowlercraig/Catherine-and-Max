@@ -16,7 +16,7 @@
                <a href="?page=search" class="btn btn-nav">January 14, 2015 — New Orleans, LA</a>
             </nav>
             <nav id="header--nav_right" class="fs-cell fs-lg-2 fs-md-hide fs-sm-2 text-right">
-               <a href="#" class="btn btn-nav white">#cathandmax</a>
+               <a href="#" class="btn btn-nav white btn-last">#cathandmax</a>
             </nav>
          </div>
          <div id="header--nav_hidden" class="fs-cell fs-all-full fs-contained">
@@ -31,7 +31,8 @@
                <a href="#registry" class="btn btn-nav">Registered Here</a>
             </nav>
             <nav id="header--nav_right" class="fs-cell fs-lg-2 fs-md-2 fs-sm-2 text-right">
-               <a href="#" class="btn btn-nav white">#cathandmax</a>
+               <a href="#basics" class="btn btn-nav">The Basics</a>
+               <a href="#registry" class="btn btn-nav btn-last">Registry</a>
             </nav>
          </div>
       </div>

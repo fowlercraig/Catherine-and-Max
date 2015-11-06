@@ -28,13 +28,6 @@
 
   }
 
-  &-first {
-    padding-left: 0;
-  }
-
-  &-last {
-    padding-right: 0;
-  }
 
   &-icon {
 
@@ -54,7 +47,13 @@
     font-weight: 400;
     height: 80px;
     line-height: 80px;
-    padding: 0 @spaced;
+    @media @min {
+      padding: 0 @spaced/2;  
+    }
+    @media @tablet {
+      padding: 0 @spaced;  
+    }
+    
 
     &[class*="ss-"] {
       padding: 0;
@@ -218,6 +217,14 @@
     background-size: contain;
     margin-right: @spaced/2;
     opacity: .5;
+  }
+
+   &-first {
+    padding-left: 0;
+  }
+
+  &-last {
+    padding-right: 0;
   }
 
 }
