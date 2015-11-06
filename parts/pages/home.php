@@ -34,15 +34,6 @@
 		<div class="fs-row">
 
 			<div class="fs-cell fs-lg-4 fs-md-2 fs-sm-3 text-center">
-				<p><img src="/assets/love.svg" class="img-responsive" /></p>
-				<h5>The Story</h5>
-				<p>This is how we met...</p>
-				<small><a href="#">Coming Soon</a></small>
-			</div>
-
-			<hr class="divider fs-cell fs-lg-hide fs-md-hide fs-sm-3">
-
-			<div class="fs-cell fs-lg-4 fs-md-2 fs-sm-3 text-center">
 				<p><img src="/assets/date.svg" class="img-responsive" /></p>
 				<h5>The Date</h5>
 				<p>Saturday, April 16, 2016</p>
@@ -57,6 +48,16 @@
 				<p>New Orleans, Louisiana</p>
 				<small><a href="#">Google Map</a> | <a href="#">Find a hotel</a></small>
 			</div>
+
+			<hr class="divider fs-cell fs-lg-hide fs-md-hide fs-sm-3">
+
+			<div class="fs-cell fs-lg-4 fs-md-2 fs-sm-3 fs-left text-center">
+				<p><img src="/assets/love.svg" class="img-responsive" /></p>
+				<h5>The Story</h5>
+				<p>This is how we met...</p>
+				<small><a href="#">Coming Soon</a></small>
+			</div>
+
 			<span id="registry"></span>
 
 		</div>
