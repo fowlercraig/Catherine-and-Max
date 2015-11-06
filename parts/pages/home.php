@@ -45,7 +45,7 @@
 			<div class="fs-cell fs-lg-4 fs-md-2 fs-sm-3 text-center">
 				<p><img src="/assets/date.svg" class="img-responsive" /></p>
 				<h5>The Date</h5>
-				<p>Thursday, January 1st, 2016</p>
+				<p>Saturday, April 16, 2016</p>
 				<small><a href="#">Add to calendar</a> | <a href="#">Schedule</a></small>
 			</div>
 
@@ -54,7 +54,7 @@
 			<div class="fs-cell fs-lg-4 fs-md-2 fs-sm-3 text-center">
 				<p><img src="/assets/location.svg" class="img-responsive" /></p>
 				<h5>The Location</h5>
-				<p>Some Hotel, New Orleans LA</p>
+				<p>New Orleans, Louisiana</p>
 				<small><a href="#">Google Map</a> | <a href="#">Find a hotel</a></small>
 			</div>
 			<span id="registry"></span>
