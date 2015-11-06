@@ -405,6 +405,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/MDR+CL17.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 450112,
+		"inputAbbreviatedPath": "\/assets\/MDR+CL17.jpg",
+		"outputAbbreviatedPath": "\/assets\/MDR+CL17.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/MDR+CL17mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 251678,
+		"inputAbbreviatedPath": "\/assets\/MDR+CL17mobile.jpg",
+		"outputAbbreviatedPath": "\/assets\/MDR+CL17mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/NOON-GOONS-03.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

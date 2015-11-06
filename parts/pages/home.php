@@ -1,5 +1,5 @@
 
-<div class="wallpaper banner banner-overlay banner-large fs-cell fs-full-all" data-background-options='{"source":{"0px":"/assets/images/MDR+CL17-overlay_mobile.jpg","740px":"/assets/images/MDR+CL17.jpg"}}'>
+<div class="wallpaper banner banner-overlay banner-large fs-cell fs-full-all" data-background-options='{"source":{"0px":"/assets/MDR+CL17mobile.jpg","740px":"/assets/MDR+CL17.jpg"}}'>
 	<div class="centered centered-full fs-all-full fs-contained">
 		<div class="fs-row">
 			<div class="fs-cell fs-all-full text-center">
