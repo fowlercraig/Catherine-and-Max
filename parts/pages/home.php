@@ -40,12 +40,16 @@
 				<small><a href="#">Coming Soon</a></small>
 			</div>
 
+			<hr class="divider fs-cell fs-lg-hide fs-md-hide fs-sm-3">
+
 			<div class="fs-cell fs-lg-4 fs-md-2 fs-sm-3 text-center">
 				<p><img src="/assets/date.svg" class="img-responsive" /></p>
 				<h5>The Date</h5>
 				<p>Thursday, January 1st, 2016</p>
 				<small><a href="#">Add to calendar</a> | <a href="#">Schedule</a></small>
 			</div>
+
+			<hr class="divider fs-cell fs-lg-hide fs-md-hide fs-sm-3">
 
 			<div class="fs-cell fs-lg-4 fs-md-2 fs-sm-3 text-center">
 				<p><img src="/assets/location.svg" class="img-responsive" /></p>

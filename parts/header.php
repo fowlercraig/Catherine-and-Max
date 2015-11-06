@@ -30,7 +30,7 @@
                <a href="#basics" class="btn btn-nav">The Basics</a>
                <a href="#registry" class="btn btn-nav">Registered Here</a>
             </nav>
-            <nav id="header--nav_right" class="fs-cell fs-lg-2 fs-md-2 fs-sm-1 text-right">
+            <nav id="header--nav_right" class="fs-cell fs-lg-2 fs-md-2 fs-sm-2 text-right">
                <a href="#" class="btn btn-nav white">#cathandmax</a>
             </nav>
          </div>
