@@ -15,7 +15,7 @@
 				<img src="/assets/wedding.svg"  class="img" />
 				<h3>THE WEDDING OF</h3>
 				<h1>Catherine &amp; Max</h1>
-				<h5><a href="#" class="ss-gizmo ss-navigatedown">Scroll for More</a></h5>
+				<span id="basics"></span>
 			</div>
 		</div>
 	</div>
@@ -53,10 +53,12 @@
 				<p>Some Hotel, New Orleans LA</p>
 				<small><a href="#">Google Map</a> | <a href="#">Find a hotel</a></small>
 			</div>
+			<span id="registry"></span>
 
 		</div>
 	</div>
 </div>
+
 
 <hr class="divider-vertical down">
 
