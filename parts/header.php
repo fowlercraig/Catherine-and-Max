@@ -23,14 +23,14 @@
             <nav id="header--nav_left" class="fs-cell fs-lg-2 fs-md-2 fs-sm-1">
                <a href="#" class="btn btn-nav ss-gizmo btn-menu ss-delete swap white" data-swap-linked=".btn-menu" data-swap-target=".menu-swap">Close</a>
             </nav>
-            <nav id="header--nav_center" class="fs-cell fs-lg-8 fs-md-4 fs-sm-hide text-center">
+            <nav id="header--nav_center" class="fs-cell fs-lg-8 fs-md-hide fs-sm-hide text-center">
                <?php if ( $page != 'index'): echo '<a href="/" class="btn btn-nav">Home</a>' ; endif; ?>
 
                <a href="#" class="btn btn-nav">Home</a>
                <a href="#basics" class="btn btn-nav">The Basics</a>
                <a href="#registry" class="btn btn-nav">Registered Here</a>
             </nav>
-            <nav id="header--nav_right" class="fs-cell fs-lg-2 fs-md-2 fs-sm-2 text-right">
+            <nav id="header--nav_right" class="fs-cell fs-lg-2 fs-md-4 fs-sm-2 text-right">
                <a href="#basics" class="btn btn-nav">The Basics</a>
                <a href="#registry" class="btn btn-nav btn-last">Registry</a>
             </nav>
