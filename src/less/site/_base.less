@@ -21,6 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: @textGray;
   line-height: 1.5;
+  .font_size(19);
 }
 
 body * {
@@ -41,7 +42,7 @@ h5,
 h6 {
 
   .headerFont();
-  color: darken(@textGray, 15%);
+  color: @mainColor;
   line-height: inherit;
   margin: 15px 0;
   font-weight: 300;
@@ -137,6 +138,30 @@ hr {
   }
   &.compact {
     margin: @fs-grid-gutter 0;
+  }
+  &.divider {
+    &-vertical {
+      background: @mainColor;
+      width: 2px;
+      height: @spaced*3;
+      margin: @spaced auto;
+      &.down {
+        &:after {
+          top: 100%;
+          left: 50%;
+          border: solid transparent;
+          content: " ";
+          height: 0;
+          width: 0;
+          position: relative;
+          pointer-events: none;
+          border-color: transparent;
+          border-top-color: @mainColor;
+          border-width: 5px;
+          margin-left: -5px;
+        }
+      }
+    }
   }
 }
 

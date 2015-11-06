@@ -97,11 +97,20 @@
    }
 
    h1 {
+      @media @min {
+         .font_size(40);   
+      }
       @media @tablet {
          .font_size(80);   
       }
       color: inherit;
-      .crimson();
+      text-transform: uppercase;
+      //.crimson();
+      img {
+         display: inline-block;
+         height: 50px;
+         width: auto;
+      }
    }
 
    h2 {
@@ -236,6 +245,13 @@
 
    &-small {
       height: 75px;
+   }
+
+   .img {
+      height: 40px;
+      display: block;
+      margin: auto;
+      margin-bottom: 25px;
    }
 
 }
