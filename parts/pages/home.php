@@ -15,6 +15,8 @@
 				<img src="/assets/wedding.svg"  class="img" />
 				<h3>THE WEDDING OF</h3>
 				<h1>Catherine &amp; Max</h1>
+				<br>
+				<a href="#basics"><h5>SCROLL DOWN FOR MORE</h5></a>
 				<span id="basics"></span>
 			</div>
 		</div>
